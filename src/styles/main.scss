@@ -1,0 +1,122 @@
+@import '~bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+
+@font-face {
+  font-family: 'Graphique';
+  src: url('./fonts/Graphique\ W01\ Regular.ttf');
+}
+
+//* CSS for UI and Home page
+
+.homepagetitle {
+  text-align: center;
+  font-family: 'Graphique';
+  font-size: 19vmin;
+  font-weight: 700;
+  color: red;
+}
+.homepagecontainer, .problempagecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div { 
+  justify-content: center;
+  align-items: center;
+}
+.hero { 
+  background-color: rgb(53, 53, 53);
+}
+
+.UI {
+  background-image: url('https://media.giphy.com/media/Y8a0CT2xsbo9G/giphy.gif');
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.hero-body {
+  flex-direction: column;
+  color: white;
+}
+
+
+
+.title {
+  padding: 15px;
+}
+.card { 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;  
+  max-width: 350px;  
+  min-width: 300px;
+}
+.card img {
+  width: 40vw;
+  max-width: 300px;
+}
+.card-container {
+  flex-shrink: 4;
+  opacity: 0.8;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.card-text {
+  line-height: 2.5;
+}
+.movie-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.selection-buttons {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.next-movie.button {
+  color: white;
+}
+.picked-movie.button {
+  color: white;
+}
+.button {
+  margin: 15px;
+}
+.main-button {
+  background-color: red;
+  color: white;
+
+}
+.counter {
+  margin: 20px;
+  // color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner-img {
+  background-image: url('./images/Reload-2s-217px.png');
+  width: 200px;
+  height: 200px;
+}
+
+.congrats { 
+  background-image: url('https://media.giphy.com/media/bb0Xwo6UoHTPy/giphy.gif');
+  background-size: cover; 
+  background-repeat: no-repeat;
+ }
+
+
+//* CSS for Problem Page
+div.hero-body div.container.has-text-centered {
+  font-family: Graphique;
+  font-size: 40px;
+  color: red;
+}
